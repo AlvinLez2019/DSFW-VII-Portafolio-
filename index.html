@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- TÍTULO -->
+    <header>
+        <h1>DSFW VII - PORTAFOLIO</h1>
+    </header>
+
+    <div class="contenedor">
+
+        <!-- IZQUIERDA (NOTICIA) -->
+        <main class="contenido">
+
+            <div class="card">
+                <div class="card-header">
+                    <h2>Ciberataque a Booking, control de edad en internet y nuevas medidas contra el spam</h2>
+                </div>
+
+                <div class="card-body">
+                    <img src="img/noticia2.jpg" alt="Imagen de la noticia 2">
+
+                    <p class="texto-bonito">
+                    La noticia sobre el ciberataque a Booking.com, junto con el control de edad en internet y 
+                    las nuevas medidas contra el spam, muestra cómo están evolucionando los derechos digitales 
+                    en la actualidad. En el caso del ataque, se produjo un acceso no autorizado a datos de usuarios, 
+                    como información de contacto y detalles de reservas; aunque no se filtraron datos bancarios, 
+                    el principal riesgo es el phishing, ya que los ciberdelincuentes pueden usar esos datos para 
+                    enviar mensajes falsos y engañar a las personas.
+
+                    Además, se menciona que la Unión Europea está desarrollando un sistema para verificar la edad 
+                    de los usuarios en internet sin comprometer su privacidad, con el objetivo de proteger especialmente 
+                    a los menores, y que España será uno de los primeros países en probarlo. Por otro lado, también se 
+                    plantea una nueva medida contra el spam telefónico, que consistirá en obligar a que las llamadas 
+                    comerciales utilicen un prefijo específico (400), permitiendo a los usuarios identificarlas fácilmente 
+                    y evitar fraudes.
+
+                    En mi opinión, esta noticia refleja claramente que la tecnología no solo avanza en innovación, sino 
+                    también en riesgos, ya que hoy en día no es necesario robar datos financieros para cometer estafas, 
+                    sino que basta con información básica para manipular a las personas. Al mismo tiempo, las soluciones 
+                    propuestas van en buena dirección, pero generan dudas sobre su efectividad real y el equilibrio entre 
+                    seguridad y privacidad, lo que demuestra que la regulación digital será cada vez más importante en el futuro.
+                    </p>
+                </div>
+
+                <div class="card-footer">
+                    <p><strong>Reseña:</strong> La tecnología avanza rápido, pero los problemas también evolucionan igual de rápido.
+                    El caso de Booking deja claro que hoy en día no hace falta robar datos bancarios para estafar; con información 
+                    básica ya se pueden hacer ataques muy convincentes. Eso demuestra que el verdadero riesgo está en la ingeniería 
+                    social, no solo en los sistemas.</p>
+
+                    <p><strong>Fuente:</strong> Cadena SER – “Ciberataque a Booking, control de edad en internet y nuevas medidas contra el spam”</p>
+
+                    <p><strong>Fecha:</strong> 25/04/2026</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2>Ciberataque a Booking, control de edad en internet y nuevas medidas contra el spam: así avanzan los derechos digitales</h2>
+                </div>
+
+                <div class="card-body">
+                    <img src="img/noticia1.jpg" alt="Imagen de la noticia">
+                    <p class="texto-bonito">
+                    En la actualidad, los derechos digitales están evolucionando rápidamente debido al avance de la tecnología. 
+                    Uno de los casos más recientes es el ciberataque a la plataforma Booking, donde los usuarios fueron víctimas 
+                    de engaños sin necesidad de que se robaran datos bancarios. Este tipo de situaciones demuestra la importancia 
+                    de la seguridad en internet y la protección de la información personal.
+
+                    Además, se están implementando nuevas medidas como el control de edad en internet y regulaciones más estrictas 
+                    contra el spam, con el objetivo de mejorar la experiencia y seguridad de los usuarios en el entorno digital.
+                    </p>
+                </div>
+
+                <div class="card-footer">
+                    <p><strong>Reseña:</strong> La tecnología avanza rápido, pero los problemas también evolucionan igual de rápido.
+                    El caso de Booking deja claro que hoy en día no hace falta robar datos bancarios para estafar; con información 
+                    básica ya se pueden hacer ataques muy convincentes. Eso demuestra que el verdadero riesgo está en la ingeniería 
+                    social, no solo en los sistemas.</p>
+
+                    <p><strong>Fuente:</strong> Cadena SER – “Ciberataque a Booking, control de edad en internet y nuevas medidas contra el spam”</p>
+
+                    <p><strong>Fecha:</strong> 25/04/2026</p>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- DERECHA (MENÚ) -->
+        <aside class="sidebar">
+
+            <a href="pages/curso.html">Descripción del curso</a>
+            <a href="pages/carta.html">Carta de presentación</a>
+            <a href="pages/autoretrato.html">Autoretrato</a>
+
+            <div class="menu-item">
+                <button onclick="toggleMenu()" class="btn-menu">
+                    Asignaciones del curso
+                </button>
+
+                <div id="submenu" class="submenu">
+                    <a href="pages/asignaciones_semana3.html">Semana 3</a>
+                    <a href="pages/asignaciones_semana4.html">Semana 4</a>
+                    <a href="pages/asignaciones_semana5.html">Semana 5</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <button onclick="toggleBitacora()" class="btn-menu">
+                    Bitácora de aprendizaje
+                </button>
+
+                <div id="submenu-bitacora" class="submenu">
+                    <a href="pages/bitacora1.html">Semana 1</a>
+                    <a href="pages/bitacora2.html">Semana 2</a>
+                    <a href="pages/bitacora3.html">Semana 3</a>
+                    <a href="pages/bitacora4.html">Semana 4</a>
+                    <a href="pages/bitacora5.html">Semana 5</a>
+                </div>
+            </div>
+                        
+            <div class="menu-item">
+                <button onclick="toggleMateriales()" class="btn-menu">
+                    Materiales de apoyo
+                </button>
+
+                <div id="submenu-materiales" class="submenu">
+                    <a href="pages/materiales1.html">Módulo I</a>
+                    <a href="pages/materiales2.html">Módulo II</a>
+                </div>
+            </div>
+            
+            <a href="pages/consideraciones.html">Consideraciones</a>
+
+        </aside>
+
+    </div>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("submenu");
+
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+
+    <script>
+        function toggleBitacora() {
+            var menu = document.getElementById("submenu-bitacora");
+
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+
+    <script>
+        function toggleMateriales() {
+            var menu = document.getElementById("submenu-materiales");
+
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+</html>
