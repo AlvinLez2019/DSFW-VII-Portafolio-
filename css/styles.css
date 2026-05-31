@@ -31,7 +31,7 @@ header h1 {
 
 /* CONTENIDO IZQUIERDO */
 .contenido {
-    width: 70%;
+    width: calc(100% - 350px);
 }
 
 /* TARJETA */
@@ -238,7 +238,4 @@ nav a:hover {
 
 .sidebar {
     width: 30%;
-    position: sticky;
-    top: 20px; /* distancia desde arriba */
-    height: fit-content; /* evita que se estire */
 }
